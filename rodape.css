@@ -1,0 +1,128 @@
+/*RODAPÉ ========================================================================*/
+
+.rodape {
+    background-color: black;
+    height: 120PX;
+    color: #ffffff;
+
+}
+
+.contatos {
+    width: 170px;
+    float: right;
+    padding: 10px 40px 12px;
+}
+
+.contatos>h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 15px 0 15px 18px;
+    text-align: left;
+}
+
+.contatos>a>img {
+    width: 35px;
+    margin: 0 5px 0 0;
+    transition: .5s;
+}
+
+.contatos>a>img:hover {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.creditos {
+    width: 330px;
+    text-align: left;
+    padding: 19.5px 0 19px 40PX;
+    float: left;
+}
+
+#registro {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+#dev {
+    font-size: 0.9rem;
+    color: #ffffff;
+    padding-left: 25px;
+    margin: 0;
+}
+
+#dev>a {
+    text-decoration: none;
+    color: #D8AC9C;
+}
+
+@media screen and (max-width:650px) {
+
+    .rodape {
+        height: 285px;
+    }
+
+    .contatos {
+        width: 300px;
+        float: none;
+        margin: auto;
+        padding: 25px 0;
+    }
+
+    .contatos>h3 {
+        padding: 15px 0 20px;
+        text-align: center;
+    }
+
+    .contatos>a>img {
+        width: 50px;
+        margin: 0 15px 0;
+    }
+
+    .creditos {
+        border-top: solid 2px #ffffff;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+        float: none;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .rodape {
+        height: 250px;
+    }
+
+    .contatos {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contatos>h3 {
+        font-size: 1.5rem;
+        padding: 15px 0 20px;
+        text-align: center;
+    }
+
+    .contatos>a>img {
+        width: 45px;
+        margin: 0 5px 0;
+    }
+
+    .creditos {
+        width: 90%;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    #registro {
+        font-size: 0.8rem;
+        margin: 10px 0 0;
+    }
+
+    #dev {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+}

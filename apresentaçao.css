@@ -1,0 +1,76 @@
+/*APRESENTAÇÃO ====================================================================*/
+
+.apresentaçao{
+    padding: 50px;
+    margin: 0 ;
+}
+
+
+.sobre{
+    background-color: #D8AC9C;
+    padding: 50px;
+}
+
+.sobre > h2 {
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+.sobre > img{
+    background-color: white;
+    width: 30% ;
+    margin:  30px auto;
+    border: solid white;
+    padding: 1.5% 1.5% 5% 1.5%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.sobre > p{          
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.sobre > a{
+    margin: 30px 0 0 0;
+    padding: 10px 0;
+    width: 167px;
+    display: inline-block;
+    border: solid 2px #000000;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sobre > a:hover{
+    background-color: black;
+    border: solid 2px black;
+    color: #D8AC9C;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .sobre > img{
+        width: 50%;
+        padding: 1.5% 1.5% 7% 1.5%;
+    }
+
+    .sobre > h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .sobre > img{
+        width: 70%;
+        padding: 1.5% 1.5% 7% 1.5%;
+    }
+
+    .sobre > h2 {
+        font-size: 1.5rem;
+    }
+}
+

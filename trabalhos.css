@@ -1,0 +1,203 @@
+/*TRABALHOS ========================================================================*/
+
+.trabalhos {
+    background-image: url(ATIVOS/rio-lapa\ 02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.trabalhos h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+/*Slides*/
+
+.content {
+    height: 680px;
+    width: 680px;
+    border-radius: 20px;
+    border: solid 15px #ffffff;
+    overflow: hidden;
+    margin: 0 AUTO;
+    display: block;
+}
+
+.nave {
+    position: absolute;
+    margin: 30px auto 0px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 15px;
+    border: solid 5px #ffffff;
+    background: #ffffff62;
+    margin: 6px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bar:hover {
+    background-color: #ffffff;
+}
+
+.bar:focus {
+    background-color: black;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 800%;
+    height: 100%;
+}
+
+.slide {
+    width: 12.5%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 0;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -12.5%;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -25%;
+}
+
+#slide4:checked~.s1 {
+    margin-left: -37.5%;
+}
+
+#slide5:checked~.s1 {
+    margin-left: -50%;
+}
+
+#slide6:checked~.s1 {
+    margin-left: -62.5%;
+}
+
+#slide7:checked~.s1 {
+    margin-left: -75%;
+}
+
+#slide8:checked~.s1 {
+    margin-left: -87.5%;
+}
+
+
+#link-insta01 {
+    margin: 100px 0 0px;
+    display: inline-block;
+    border: solid 5px #ffffff;
+    background: #ffffff62;
+    border-radius: 30px;
+    transition: .5s;
+    color: #000000;
+}
+
+#link-insta01:hover {
+    background: #ffffff;
+    border: solid 5px #ffffff;
+    transition: .5s;
+}
+
+#link-insta01>img {
+    position: relative;
+    padding-left: 10px;
+    top: 9px;
+}
+
+#link-insta01>p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .content {
+        width: 540px;
+        height: 540px;
+        border: solid 4px #ffffff;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .trabalhos {
+        padding: 30px 0px;
+    }
+
+    .content {
+        width: 480px;
+        height: 480px;
+
+    }
+
+    .trabalhos h2 {
+        font-size: 1.8rem;
+
+    }
+
+    .bar {
+        border: solid 3px #ffffff;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .content {
+        width: 320px;
+        height: 320px; 
+    }
+
+    .trabalhos h2 {
+        font-size: 1.5rem;
+    }
+
+    .bar {
+        width: 15px;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .content {
+        width: 290px;
+        height: 290px;  
+    }
+
+    .bar {
+        border: solid 3px #ffffff;
+        width: 20px;
+        margin: 0px 2px;
+
+    }
+}
+
